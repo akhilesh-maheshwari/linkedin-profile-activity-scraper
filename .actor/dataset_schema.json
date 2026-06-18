@@ -1,0 +1,32 @@
+{
+  "actorSpecification": 1,
+  "fields": {},
+  "views": {
+    "overview": {
+      "title": "Overview",
+      "transformation": {
+        "fields": [
+          "profileUrl",
+          "postUrl",
+          "postText",
+          "postDate",
+          "likes",
+          "comments",
+          "reposts"
+        ]
+      },
+      "display": {
+        "component": "table",
+        "properties": {
+          "profileUrl": { "label": "Profile URL", "format": "link" },
+          "postUrl":    { "label": "Post URL",    "format": "link" },
+          "postText":   { "label": "Post Text",   "format": "text" },
+          "postDate":   { "label": "Post Date",   "format": "text" },
+          "likes":      { "label": "Likes",       "format": "text" },
+          "comments":   { "label": "Comments",    "format": "text" },
+          "reposts":    { "label": "Reposts",     "format": "text" }
+        }
+      }
+    }
+  }
+}
