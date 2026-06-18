@@ -1,0 +1,30 @@
+{
+  "title": "LinkedIn Profile Activity",
+  "description": "Scrape activity posts from a LinkedIn profile",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "linkedinProfileUrl": {
+      "title": "LinkedIn Profile Url",
+      "type": "string",
+      "description": "Enter the LinkedIn profile URL (e.g. https://www.linkedin.com/in/mayankchaba)",
+      "editor": "textfield",
+      "prefill": "https://www.linkedin.com/in/mayankchaba"
+    },
+    "fileName": {
+      "title": "Results File Name",
+      "type": "string",
+      "description": "Name your results file (without extension)",
+      "editor": "textfield",
+      "default": "linkedin-profile-activity-output"
+    },
+    "maximumPages": {
+      "title": "Maximum Pages",
+      "type": "integer",
+      "description": "Maximum number of pages to scrape",
+      "editor": "number",
+      "default": 1
+    }
+  },
+  "required": ["linkedinProfileUrl", "fileName"]
+}
