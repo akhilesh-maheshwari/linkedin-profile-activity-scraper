@@ -1,0 +1,10 @@
+{
+  "actorSpecification": 1,
+  "name": "linkedin-profile-activity",
+  "title": "LinkedIn Profile Activity",
+  "description": "Scrape activity posts from a LinkedIn profile URL",
+  "version": "0.0",
+  "buildTag": "latest",
+  "environmentVariables": {},
+  "dockerfile": "./Dockerfile"
+}
